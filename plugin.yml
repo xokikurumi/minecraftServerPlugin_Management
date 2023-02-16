@@ -1,0 +1,59 @@
+name: myPlugin
+main: mc_119.main
+version: 1.0.0
+api-version: 1.19
+commands:
+  home:
+    description: teleported home
+    usage: /<command>
+
+  head:
+    description: get Player Head
+    usage: /<command> <player_name>
+    
+  name:
+    description: get Player Head
+    usage: /<command> <displayName>
+
+  img:
+    description: get Player Head
+    usage: /<command> <displayName>
+  ping:
+    description: get Player Head
+    usage: /<command> <displayName>
+
+  adm:
+    description: get Player Head
+    usage: /<command> <player_name>
+    permission: myplugin.adm
+    default: op
+  ghelp:
+    description: get Player Head
+    usage: /<command> <player_name>
+    permission: myplugin.adm
+    default: op
+
+
+permissions:
+  myplugin.home:
+    default: true
+  myplugin.head:
+    default: true
+  myplugin.name:
+    default: true
+  myplugin.img:
+    default: true
+  myplugin.ping:
+    default: true
+  myplugin.ghelp:
+    default: true
+  myplugin.adm:
+    default: op
+  myplugin.break:
+    default: true
+  myplugin.place:
+    default: true
+  myplugin.move:
+    default: true
+  myplugin.pickup:
+    default: true

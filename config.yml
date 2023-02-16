@@ -1,0 +1,8 @@
+autoServerReset: true
+autoServerResetTime: "0000"
+# 必ず上記の時間の10分前にしてください.
+autoServerResetMessageTime: "2350"
+whitelist: true
+okCompanyList: 
+  - JP
+  - DE
